@@ -6,7 +6,7 @@ var Defmech = Defmech ||
 {
 	'use strict';
 
-	console.log('utils.js', 'Defmech.Utils');
+	console.log('https://github.com/babaganoooosh/hello-world/blob/master/utils.js', 'Defmech.Utils');
 
 	var Utils = function()
 	{
