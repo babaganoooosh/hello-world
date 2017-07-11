@@ -43,12 +43,12 @@ Defmech.SceneController = (function() {
 		addCylinder();
 
 		document.querySelector('a-scene').addEventListener('enter-vr', function() {
-			console.log('main.js', 'enter-vr');
+			console.log('https://github.com/babaganoooosh/hello-world/blob/master/main.js', 'enter-vr');
 			reset();
 		});
 
 		document.querySelector('a-scene').addEventListener('exit-vr', function() {
-			console.log('main.js', 'exit-vr');
+			console.log('https://github.com/babaganoooosh/hello-world/blob/master/main.js', 'exit-vr');
 			reset();
 		});
 
@@ -58,11 +58,11 @@ Defmech.SceneController = (function() {
 	}
 
   function handleClick(event) {
-    console.log('main.js', 'handleWindowClick');
+    console.log('https://github.com/babaganoooosh/hello-world/blob/master/main.js', 'handleWindowClick');
   }
 
 	function addCylinder() {
-		console.log('main.js', 'addCylinder');
+		console.log('https://github.com/babaganoooosh/hello-world/blob/master/main.js', 'addCylinder');
 
 		textureSeamless = new THREE.TextureLoader().load('https://cdn.glitch.com/f8c77299-b94a-417e-82ce-7e5bdf7114d5%2Fseamless.jpg?1499811346574');
 		textureSeamless.wrapS = textureSeamless.wrapT = THREE.RepeatWrapping;
@@ -255,7 +255,7 @@ Defmech.SceneController = (function() {
 
 		if (superContainer.position.z > (howMany * distanceBetweenContainers)) {
 			superContainer.position.z = superContainerStartZ;
-			// console.log('main.js', 'RESET');
+			// console.log('https://github.com/babaganoooosh/hello-world/blob/master/main.js', 'RESET');
 			theme.components.sound.playSound();
 		}
 	}
